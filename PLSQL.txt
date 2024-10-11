@@ -1,0 +1,29 @@
+PL/SQL 
+-------
+PL/SQL is a programming language used for managing data in databases. It combines SQL for data manipulation and procedural features for building applications. It’s like a toolkit that lets you efficiently interact with and control your Oracle database.
+
+PL/SQL is a block structured language that enables developers to combine the power of SQL with procedural statements.All the statements of a block are passed to oracle engine all at once which increases processing speed and decreases the traffic. 
+
+BASIC:
+1. Extension - .sql
+2. PLSQL - SQL + Procedural features
+3. Oracle uses PLSQL Engine to processes the PLSQL statements
+4. PLSQL includes conditions, loops, declaration of constant/variables/procedures/function, types and triggers.
+
+FEATURES:
+1. IT provides functionality or decision making, iterations
+2. It can be execute number of queries in one block using single command
+3. Provides an exception handle feature
+4. Application written in plsql are portable to computer HW or OS where Oracle is operational.
+
+STRUCTURE:
+DECLARE
+    declaration statements;
+
+BEGIN
+    executable statements
+
+EXCEPTIONS
+    exception handling statements
+
+END;
